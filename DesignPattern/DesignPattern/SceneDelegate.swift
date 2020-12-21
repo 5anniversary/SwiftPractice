@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  TexturePractice
+//  DesignPattern
 //
-//  Created by 오준현 on 2020/12/20.
+//  Created by 오준현 on 2020/12/21.
 //
 
 import UIKit

@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3730569851426485160F7CA1 /* Pods_TexturePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75CCDCE380FC1037A878A3FC /* Pods_TexturePractice.framework */; };
 		D1219E71258F7E02002AF65A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219E70258F7E02002AF65A /* AppDelegate.swift */; };
-		D1219E73258F7E02002AF65A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219E72258F7E02002AF65A /* SceneDelegate.swift */; };
 		D1219E75258F7E02002AF65A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219E74258F7E02002AF65A /* ViewController.swift */; };
 		D1219E78258F7E02002AF65A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1219E76258F7E02002AF65A /* Main.storyboard */; };
 		D1219E7A258F7E05002AF65A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1219E79258F7E05002AF65A /* Assets.xcassets */; };
 		D1219E7D258F7E05002AF65A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1219E7B258F7E05002AF65A /* LaunchScreen.storyboard */; };
+		D1219E8C2590873D002AF65A /* TestNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219E8B2590873D002AF65A /* TestNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,12 +21,12 @@
 		75CCDCE380FC1037A878A3FC /* Pods_TexturePractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TexturePractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1219E6D258F7E02002AF65A /* TexturePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexturePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1219E70258F7E02002AF65A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1219E72258F7E02002AF65A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D1219E74258F7E02002AF65A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D1219E77258F7E02002AF65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1219E79258F7E05002AF65A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1219E7C258F7E05002AF65A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1219E7E258F7E05002AF65A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1219E8B2590873D002AF65A /* TestNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNode.swift; sourceTree = "<group>"; };
 		DF60A1625393A0D61EAF94E8 /* Pods-TexturePractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TexturePractice.release.xcconfig"; path = "Target Support Files/Pods-TexturePractice/Pods-TexturePractice.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +56,6 @@
 				516B64B16BFB93530CB9D8E8 /* Pods-TexturePractice.debug.xcconfig */,
 				DF60A1625393A0D61EAF94E8 /* Pods-TexturePractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -82,12 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				D1219E70258F7E02002AF65A /* AppDelegate.swift */,
-				D1219E72258F7E02002AF65A /* SceneDelegate.swift */,
 				D1219E74258F7E02002AF65A /* ViewController.swift */,
 				D1219E76258F7E02002AF65A /* Main.storyboard */,
 				D1219E79258F7E05002AF65A /* Assets.xcassets */,
 				D1219E7B258F7E05002AF65A /* LaunchScreen.storyboard */,
 				D1219E7E258F7E05002AF65A /* Info.plist */,
+				D1219E8B2590873D002AF65A /* TestNode.swift */,
 			);
 			path = TexturePractice;
 			sourceTree = "<group>";
@@ -208,7 +207,7 @@
 			files = (
 				D1219E75258F7E02002AF65A /* ViewController.swift in Sources */,
 				D1219E71258F7E02002AF65A /* AppDelegate.swift in Sources */,
-				D1219E73258F7E02002AF65A /* SceneDelegate.swift in Sources */,
+				D1219E8C2590873D002AF65A /* TestNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
