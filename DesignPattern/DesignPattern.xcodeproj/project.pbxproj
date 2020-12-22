@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D10C2748259222AC00DE6456 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C2747259222AC00DE6456 /* TableViewCell.swift */; };
+		D10C27662592271D00DE6456 /* ChainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C27652592271D00DE6456 /* ChainViewController.swift */; };
+		D10C276A25922BFD00DE6456 /* CommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C276925922BFD00DE6456 /* CommandViewController.swift */; };
+		D10C276D25922C0700DE6456 /* InterpreterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C276C25922C0700DE6456 /* InterpreterViewController.swift */; };
+		D10C277025922C1600DE6456 /* IteratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C276F25922C1600DE6456 /* IteratorViewController.swift */; };
+		D10C277325922C1D00DE6456 /* MediatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C277225922C1D00DE6456 /* MediatorViewController.swift */; };
+		D10C277625922C2600DE6456 /* MementoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C277525922C2600DE6456 /* MementoViewController.swift */; };
+		D10C277925922C2F00DE6456 /* ObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C277825922C2F00DE6456 /* ObserverViewController.swift */; };
+		D10C277C25922C3600DE6456 /* StateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C277B25922C3600DE6456 /* StateViewController.swift */; };
+		D10C277F25922C3D00DE6456 /* StrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C277E25922C3D00DE6456 /* StrategyViewController.swift */; };
+		D10C278225922C4900DE6456 /* VisitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C278125922C4900DE6456 /* VisitorViewController.swift */; };
+		D10C278525922C5F00DE6456 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C278425922C5F00DE6456 /* BaseViewController.swift */; };
+		D10C278825922C9800DE6456 /* AbstractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C278725922C9800DE6456 /* AbstractViewController.swift */; };
+		D10C278B25922CA100DE6456 /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C278A25922CA100DE6456 /* BuilderViewController.swift */; };
+		D10C278E25922CAC00DE6456 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C278D25922CAC00DE6456 /* FactoryViewController.swift */; };
+		D10C279125922CB900DE6456 /* MonostateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C279025922CB900DE6456 /* MonostateViewController.swift */; };
+		D10C279425922CC300DE6456 /* PrototypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C279325922CC300DE6456 /* PrototypeViewController.swift */; };
+		D10C279725922CD100DE6456 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C279625922CD100DE6456 /* SingletonViewController.swift */; };
+		D10C279A25922CDA00DE6456 /* AdapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C279925922CDA00DE6456 /* AdapterViewController.swift */; };
+		D10C279D25922CE300DE6456 /* BridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C279C25922CE300DE6456 /* BridgeViewController.swift */; };
+		D10C27A025922CEB00DE6456 /* CompositeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C279F25922CEB00DE6456 /* CompositeViewController.swift */; };
+		D10C27A325922CF300DE6456 /* DecoratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C27A225922CF300DE6456 /* DecoratorViewController.swift */; };
+		D10C27A625922CFC00DE6456 /* FacadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C27A525922CFC00DE6456 /* FacadeViewController.swift */; };
+		D10C27A925922D0500DE6456 /* FlyweightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C27A825922D0500DE6456 /* FlyweightViewController.swift */; };
+		D10C27AC25922D0F00DE6456 /* ProtectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C27AB25922D0F00DE6456 /* ProtectionViewController.swift */; };
+		D10C27AF25922D1900DE6456 /* VirtualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10C27AE25922D1900DE6456 /* VirtualViewController.swift */; };
 		D16D21812590BFAF00BAB783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D21802590BFAF00BAB783 /* AppDelegate.swift */; };
 		D16D21832590BFAF00BAB783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D21822590BFAF00BAB783 /* SceneDelegate.swift */; };
 		D16D21852590BFAF00BAB783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16D21842590BFAF00BAB783 /* ViewController.swift */; };
@@ -16,6 +42,32 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D10C2747259222AC00DE6456 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		D10C27652592271D00DE6456 /* ChainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainViewController.swift; sourceTree = "<group>"; };
+		D10C276925922BFD00DE6456 /* CommandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandViewController.swift; sourceTree = "<group>"; };
+		D10C276C25922C0700DE6456 /* InterpreterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterViewController.swift; sourceTree = "<group>"; };
+		D10C276F25922C1600DE6456 /* IteratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorViewController.swift; sourceTree = "<group>"; };
+		D10C277225922C1D00DE6456 /* MediatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorViewController.swift; sourceTree = "<group>"; };
+		D10C277525922C2600DE6456 /* MementoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoViewController.swift; sourceTree = "<group>"; };
+		D10C277825922C2F00DE6456 /* ObserverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverViewController.swift; sourceTree = "<group>"; };
+		D10C277B25922C3600DE6456 /* StateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateViewController.swift; sourceTree = "<group>"; };
+		D10C277E25922C3D00DE6456 /* StrategyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyViewController.swift; sourceTree = "<group>"; };
+		D10C278125922C4900DE6456 /* VisitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorViewController.swift; sourceTree = "<group>"; };
+		D10C278425922C5F00DE6456 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D10C278725922C9800DE6456 /* AbstractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractViewController.swift; sourceTree = "<group>"; };
+		D10C278A25922CA100DE6456 /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
+		D10C278D25922CAC00DE6456 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
+		D10C279025922CB900DE6456 /* MonostateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonostateViewController.swift; sourceTree = "<group>"; };
+		D10C279325922CC300DE6456 /* PrototypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeViewController.swift; sourceTree = "<group>"; };
+		D10C279625922CD100DE6456 /* SingletonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
+		D10C279925922CDA00DE6456 /* AdapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterViewController.swift; sourceTree = "<group>"; };
+		D10C279C25922CE300DE6456 /* BridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeViewController.swift; sourceTree = "<group>"; };
+		D10C279F25922CEB00DE6456 /* CompositeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeViewController.swift; sourceTree = "<group>"; };
+		D10C27A225922CF300DE6456 /* DecoratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorViewController.swift; sourceTree = "<group>"; };
+		D10C27A525922CFC00DE6456 /* FacadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeViewController.swift; sourceTree = "<group>"; };
+		D10C27A825922D0500DE6456 /* FlyweightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightViewController.swift; sourceTree = "<group>"; };
+		D10C27AB25922D0F00DE6456 /* ProtectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtectionViewController.swift; sourceTree = "<group>"; };
+		D10C27AE25922D1900DE6456 /* VirtualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualViewController.swift; sourceTree = "<group>"; };
 		D16D217D2590BFAF00BAB783 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16D21802590BFAF00BAB783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D16D21822590BFAF00BAB783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +89,243 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D10C274A259225D800DE6456 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27562592263700DE6456 /* Visitor */,
+				D10C27552592263100DE6456 /* Strategy */,
+				D10C27542592262D00DE6456 /* State */,
+				D10C27532592262100DE6456 /* Observer */,
+				D10C27522592261900DE6456 /* Memento */,
+				D10C27512592261300DE6456 /* Mediator */,
+				D10C27502592260E00DE6456 /* Iterator */,
+				D10C274F2592260300DE6456 /* Interpreter */,
+				D10C274E259225FF00DE6456 /* Command */,
+				D10C274D259225FA00DE6456 /* Chain */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		D10C274B259225E200DE6456 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				D10C275C2592265F00DE6456 /* Singleton */,
+				D10C275B2592265B00DE6456 /* Prototype */,
+				D10C275A2592265500DE6456 /* Monostate */,
+				D10C27592592264C00DE6456 /* Factory Method */,
+				D10C27582592264800DE6456 /* Builder */,
+				D10C27572592263E00DE6456 /* Abstract Factory */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		D10C274C259225E600DE6456 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				D10C2764259226A600DE6456 /* Virtual Proxy */,
+				D10C27632592269E00DE6456 /* Protection Proxy */,
+				D10C27622592269800DE6456 /* Flyweight */,
+				D10C27612592268300DE6456 /* Facade */,
+				D10C27602592267D00DE6456 /* Decorator */,
+				D10C275F2592267200DE6456 /* Composite */,
+				D10C275E2592266D00DE6456 /* Bridge */,
+				D10C275D2592266700DE6456 /* Adapter */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		D10C274D259225FA00DE6456 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27652592271D00DE6456 /* ChainViewController.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		D10C274E259225FF00DE6456 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				D10C276925922BFD00DE6456 /* CommandViewController.swift */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		D10C274F2592260300DE6456 /* Interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				D10C276C25922C0700DE6456 /* InterpreterViewController.swift */,
+			);
+			path = Interpreter;
+			sourceTree = "<group>";
+		};
+		D10C27502592260E00DE6456 /* Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				D10C276F25922C1600DE6456 /* IteratorViewController.swift */,
+			);
+			path = Iterator;
+			sourceTree = "<group>";
+		};
+		D10C27512592261300DE6456 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				D10C277225922C1D00DE6456 /* MediatorViewController.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
+		D10C27522592261900DE6456 /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				D10C277525922C2600DE6456 /* MementoViewController.swift */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
+		D10C27532592262100DE6456 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				D10C277825922C2F00DE6456 /* ObserverViewController.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		D10C27542592262D00DE6456 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				D10C277B25922C3600DE6456 /* StateViewController.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		D10C27552592263100DE6456 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				D10C277E25922C3D00DE6456 /* StrategyViewController.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		D10C27562592263700DE6456 /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				D10C278125922C4900DE6456 /* VisitorViewController.swift */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
+		D10C27572592263E00DE6456 /* Abstract Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D10C278725922C9800DE6456 /* AbstractViewController.swift */,
+			);
+			path = "Abstract Factory";
+			sourceTree = "<group>";
+		};
+		D10C27582592264800DE6456 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				D10C278A25922CA100DE6456 /* BuilderViewController.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		D10C27592592264C00DE6456 /* Factory Method */ = {
+			isa = PBXGroup;
+			children = (
+				D10C278D25922CAC00DE6456 /* FactoryViewController.swift */,
+			);
+			path = "Factory Method";
+			sourceTree = "<group>";
+		};
+		D10C275A2592265500DE6456 /* Monostate */ = {
+			isa = PBXGroup;
+			children = (
+				D10C279025922CB900DE6456 /* MonostateViewController.swift */,
+			);
+			path = Monostate;
+			sourceTree = "<group>";
+		};
+		D10C275B2592265B00DE6456 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				D10C279325922CC300DE6456 /* PrototypeViewController.swift */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		D10C275C2592265F00DE6456 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				D10C279625922CD100DE6456 /* SingletonViewController.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		D10C275D2592266700DE6456 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				D10C279925922CDA00DE6456 /* AdapterViewController.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		D10C275E2592266D00DE6456 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				D10C279C25922CE300DE6456 /* BridgeViewController.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		D10C275F2592267200DE6456 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				D10C279F25922CEB00DE6456 /* CompositeViewController.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
+		D10C27602592267D00DE6456 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27A225922CF300DE6456 /* DecoratorViewController.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		D10C27612592268300DE6456 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27A525922CFC00DE6456 /* FacadeViewController.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		D10C27622592269800DE6456 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27A825922D0500DE6456 /* FlyweightViewController.swift */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		D10C27632592269E00DE6456 /* Protection Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27AB25922D0F00DE6456 /* ProtectionViewController.swift */,
+			);
+			path = "Protection Proxy";
+			sourceTree = "<group>";
+		};
+		D10C2764259226A600DE6456 /* Virtual Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				D10C27AE25922D1900DE6456 /* VirtualViewController.swift */,
+			);
+			path = "Virtual Proxy";
+			sourceTree = "<group>";
+		};
 		D16D21742590BFAF00BAB783 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +345,9 @@
 		D16D217F2590BFAF00BAB783 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				D10C274C259225E600DE6456 /* Structural */,
+				D10C274B259225E200DE6456 /* Creational */,
+				D10C274A259225D800DE6456 /* Behavioral */,
 				D16D21802590BFAF00BAB783 /* AppDelegate.swift */,
 				D16D21822590BFAF00BAB783 /* SceneDelegate.swift */,
 				D16D21842590BFAF00BAB783 /* ViewController.swift */,
@@ -63,6 +355,8 @@
 				D16D21892590BFB500BAB783 /* Assets.xcassets */,
 				D16D218B2590BFB500BAB783 /* LaunchScreen.storyboard */,
 				D16D218E2590BFB500BAB783 /* Info.plist */,
+				D10C2747259222AC00DE6456 /* TableViewCell.swift */,
+				D10C278425922C5F00DE6456 /* BaseViewController.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -137,9 +431,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D10C27A325922CF300DE6456 /* DecoratorViewController.swift in Sources */,
+				D10C277C25922C3600DE6456 /* StateViewController.swift in Sources */,
+				D10C278B25922CA100DE6456 /* BuilderViewController.swift in Sources */,
+				D10C27A025922CEB00DE6456 /* CompositeViewController.swift in Sources */,
+				D10C277025922C1600DE6456 /* IteratorViewController.swift in Sources */,
+				D10C276D25922C0700DE6456 /* InterpreterViewController.swift in Sources */,
+				D10C279D25922CE300DE6456 /* BridgeViewController.swift in Sources */,
 				D16D21852590BFAF00BAB783 /* ViewController.swift in Sources */,
+				D10C279425922CC300DE6456 /* PrototypeViewController.swift in Sources */,
+				D10C27A925922D0500DE6456 /* FlyweightViewController.swift in Sources */,
+				D10C2748259222AC00DE6456 /* TableViewCell.swift in Sources */,
+				D10C27AF25922D1900DE6456 /* VirtualViewController.swift in Sources */,
+				D10C279125922CB900DE6456 /* MonostateViewController.swift in Sources */,
+				D10C278525922C5F00DE6456 /* BaseViewController.swift in Sources */,
+				D10C279725922CD100DE6456 /* SingletonViewController.swift in Sources */,
+				D10C279A25922CDA00DE6456 /* AdapterViewController.swift in Sources */,
 				D16D21812590BFAF00BAB783 /* AppDelegate.swift in Sources */,
+				D10C277625922C2600DE6456 /* MementoViewController.swift in Sources */,
+				D10C277925922C2F00DE6456 /* ObserverViewController.swift in Sources */,
 				D16D21832590BFAF00BAB783 /* SceneDelegate.swift in Sources */,
+				D10C27AC25922D0F00DE6456 /* ProtectionViewController.swift in Sources */,
+				D10C27A625922CFC00DE6456 /* FacadeViewController.swift in Sources */,
+				D10C278E25922CAC00DE6456 /* FactoryViewController.swift in Sources */,
+				D10C278825922C9800DE6456 /* AbstractViewController.swift in Sources */,
+				D10C277325922C1D00DE6456 /* MediatorViewController.swift in Sources */,
+				D10C276A25922BFD00DE6456 /* CommandViewController.swift in Sources */,
+				D10C27662592271D00DE6456 /* ChainViewController.swift in Sources */,
+				D10C277F25922C3D00DE6456 /* StrategyViewController.swift in Sources */,
+				D10C278225922C4900DE6456 /* VisitorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
